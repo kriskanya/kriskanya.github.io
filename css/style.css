@@ -3,16 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Cinzel);
 
 body {
-  background-image: url("../images/stars.jpg");
+  background-image: url("../images/grey_wash_wall.png");
   background-size: cover;
 }
 
 h1 {
-  color: olive;
-  background-color: #ff0099;
+  color: #000035;
+  background-color: olive;
   font-family: 'Playfair Display SC', serif;
   font-size: 30px;
-  opacity: 0.5;
+  opacity: 1;
+  text-align: center;
 }
 
 h4 {
@@ -26,6 +27,8 @@ h4 {
 
 li {
   font-family: 'Cinzel', serif;
+  display: inline;
+  padding: 10px
 }
 
 li:nth-child(2n) {
@@ -34,4 +37,9 @@ li:nth-child(2n) {
 
 li:nth-child(2n + 1){
   color: blue;
+}
+
+.center {
+  margin-right: 25%;
+  margin-left: 25%;
 }
